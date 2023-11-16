@@ -1,0 +1,46 @@
+    #movingImage {
+        position: relative;
+        left: 0;
+    }
+
+    .title {
+        font-family: 'Courier New';
+        font-size: 300%;
+        color: rgb(74, 146, 211);
+    }
+
+    .navbar-brand {
+        font-size: 250%;
+        color: white !important;
+    }
+
+    .navbar {
+        background-color: rgb(126, 150, 50) !important;
+        border: 2px solid rgb(13, 53, 78);
+        /* Add a black border */
+    }
+
+
+    @media (max-width: 992px) {
+        .title {
+            font-size: 200%;
+        }
+
+        .navbar-brand {
+            font-size: 150%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .title {
+            font-size: 150%;
+        }
+
+        .navbar-brand {
+            font-size: 100%;
+        }
+    }
+
+    .container-fluid {
+        padding: 0;
+    }
